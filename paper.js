@@ -26,6 +26,6 @@ class paper {
     keyPressed() {
         var pox=this.body.position.x;
         var poy=this.body.position.y;
-        Matter.Body.applyForce( this.body, {x:pox, y:poy}, {x:100, y:100});
+        Matter.Body.applyForce( this.body, {x:pox, y:poy}, {x:90, y:90});
     }
 };
